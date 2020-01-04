@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    
+    <title>simulations</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Coin Tossing</h1>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <table id="tbl" class="row-border" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Toss</th>
+                        <th>Random Number</th>
+                        <th>Solution</th>
+                    </tr>
+                </thead>
+                <tbody id="base">
+                    <tr id="1">
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Toss</th>
+                        <th>Random Number</th>
+                        <th>Solution</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <button onclick="flip()">start</button>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
